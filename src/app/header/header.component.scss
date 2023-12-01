@@ -1,0 +1,39 @@
+.mat-toolbar {
+  display: grid;
+  grid-template-columns: 1fr 4fr 2fr;
+  align-items: center;
+  gap: 1rem;
+  overflow: hidden;
+
+  .logo-container {
+    text-align: center;
+  }
+
+  h1 {
+    margin: 0;
+  }
+}
+
+.search-container {
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+
+  mat-form-field {
+    flex-grow: 1;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+
+
+    display: flex;
+    align-items: center;
+
+  }
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
