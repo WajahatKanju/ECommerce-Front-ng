@@ -3,3 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+.app-wrapper {
+  max-width: 1200px; // Adjust the max-width as needed
+  margin: 0 auto; // Center the content
+  padding: 16px; // Add padding as needed
+  position: relative;
+  text-align: center;
+}
+
