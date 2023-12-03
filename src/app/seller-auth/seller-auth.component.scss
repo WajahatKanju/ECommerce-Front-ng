@@ -1,0 +1,33 @@
+mat-card {
+  margin: 2%;
+  text-align: left;
+
+  mat-card-content {
+    padding: 1rem;
+
+    .mat-mdc-form-field {
+      width: 98%;
+      margin: 1%;
+    }
+
+    .mat-50 {
+      width: 48%;
+      margin: 1%;
+    }
+
+    .mat-25 {
+      width: 23%;
+      margin: 1%;
+    }
+
+    .mat-75 {
+      width: 73%;
+      margin: 1%;
+    }
+  }
+
+  mat-card-footer{
+    padding: 1rem;
+  }
+
+}

@@ -3,11 +3,12 @@ import { CommonModule } from '@angular/common';
 import {ChildrenOutletContexts , RouterOutlet} from '@angular/router';
 import {HeaderComponent} from "./header/header.component";
 import { routeAnimations} from "./route-animations";
+import {HttpClientModule} from "@angular/common/http";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule , RouterOutlet , HeaderComponent],
+  imports: [CommonModule , RouterOutlet , HeaderComponent, HttpClientModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
   animations: [
